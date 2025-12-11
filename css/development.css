@@ -85,8 +85,17 @@
     color: #914C10;
     
   }
-  .card-link2{
+  .card-link2, .card-link3{
     color: #FFDC89;
+  }
+  .card-link3{
+    font-family: 'funnel display';
+    position: absolute;
+    bottom: 165px;        /* 95px above button — matches screenshot layout
+    /* left: 70%;
+    transform: translateX(-50%); */ 
+    white-space: nowrap;
+    z-index: 3;
   }
   
   .submit-button1, .submit-button2 {
