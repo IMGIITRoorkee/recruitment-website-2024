@@ -1,25 +1,54 @@
 .about-us-introduction {
-    font-family: 'Space Grotesk';
+    font-family: 'Funnel Display';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
    
-    padding-top: 3.1em;
+    padding-top: 0.3em;
 }
 
 .about-us-section-wrapper {
     padding-top: 1.66em;
+    flex: 1 1 0;
+}
+
+.about-us-role-n-culture{
+    display: flex;
+    padding: 0%;
+    justify-content: space-between;
+    gap: 5%;
 }
 
 .about-us-description {
-    font-family: 'Space Grotesk';
+    font-family: 'Funnel Display';
+    font-weight: 400;
     font-style: normal;
-    font-weight: normal;
     font-size: 18px;
-    line-height: 25px;
-   
-    padding-top:.45em
+    line-height: 165%;
+    letter-spacing: 0%;
+}
+.about-us-role-n-culture .about-us-section-wrapper {
+    margin-top: 1.25em;
+    padding: 1.7em 1.8em;
+    border-radius: 1.2em;
+}
+
+.about-us-role-n-culture .about-us-section-wrapper:first-child {
+    background-color: #F2C14E;
+    color: #BF681B;
+}
+.about-us-role-n-culture .about-us-section-wrapper:first-child .heading-text{
+    color: #BF681B;
+}
+
+.about-us-role-n-culture .about-us-section-wrapper:last-child {
+    background-color: #BF681B;
+    color: #F2C14E;
+}
+
+.about-us-role-n-culture .about-us-section-wrapper:last-child .heading-text{
+    color: #F2C14E;
 }
 
 .gallery-column img {
@@ -34,16 +63,16 @@
 }
 
 .highlights-heading {
-    font-family: 'Space Grotesk';
+    font-family: 'Funnel Display';
     font-style: normal;
     font-weight: 900;
     font-size: 2em;
     line-height: 50px;
-    color: #FFDD61;
+    color: #C9A227;
 }
 
 .highlights-description {
-    font-family: 'Space Grotesk';
+    font-family: 'Funnel Display';
     font-style: normal;
     font-weight: normal;
     font-size: 1em;
@@ -61,7 +90,7 @@
 }
 
 .question-items {
-    font-family: 'Space Grotesk';
+    font-family: 'Funnel Display';
     font-style: normal;
     font-weight: 900;
     font-size: 1.5em;
@@ -106,8 +135,30 @@
 }
 
 .website-link{
+    margin-top: 2em;
     text-align: center;
     margin-bottom: 2.25em;
+}
+.website-link .site-cta-button{
+    scale: 1.4;
+    font-family: 'Funnel Display';
+    font-weight: bold;
+    background: #F2C14E;
+    color: #BF681B;
+    border: none;
+    border-radius: 9px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    font-size: 0.67rem;
+    user-select: none;
+}
+.website-link .site-cta-button:hover {
+  transition: 0.25s;
+  background: #BF681B;
+  box-shadow: 0px 0px 32px rgba(58, 38, 38, 0.2);
+  border-radius: 12px;
+  color: #F2C14E;
+
 }
 
 @media screen and (max-width: 600px) {
