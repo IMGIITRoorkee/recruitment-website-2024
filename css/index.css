@@ -36,7 +36,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #13181C;
+  background-color: #1C213A;
   height: 95%;
   margin-top: 0%;
   padding: 0 15%;
@@ -64,7 +64,7 @@
 }
 
 .heading-background-box {
-  background: #13181C;
+  background: #1C213A;
   position: absolute;
   width: 110%;
   height: 110%;
@@ -124,11 +124,17 @@
 .why-img-wrapper {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-auto-flow: column;
+  grid-template-areas: "content illustration";
   grid-column-gap: 1.7em;
 }
 
 .why-img-content {
+  align-self: center;
+  grid-area: content;
+}
+
+.why-img-illustration {
+  grid-area: illustration;
   align-self: center;
 }
 
@@ -140,15 +146,6 @@
  
   margin-top: 1em;
   margin-bottom: 1.625em;
-}
-
-.why-img-illustration {
-  height: 100%;
-  min-height: 12.5em;
-  background: url("/assets/why_img_illustration.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .updates-section {
