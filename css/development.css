@@ -55,7 +55,7 @@
     z-index: 2;
     text-align: left;
     white-space: nowrap;
-    /* margin-bottom: 1.5rem; */
+    margin-bottom: 0.5rem;
   }
   .card-title1{
     color: #BF681B
@@ -69,6 +69,7 @@
     font-family:funnel display; 
     font-size: 0.95rem;
     line-height: 1.4rem;
+    margin-top: 0;
     margin-bottom: 1rem;
     padding-bottom: 1.5rem;
     padding-right: 0.5rem;
@@ -88,10 +89,17 @@
     font-family: 'funnel display';
     position: absolute;
     bottom: 100px;        /* Above button, stacked vertically */
-    right: 2rem;
+    left: 1.5rem;
     white-space: nowrap;
     z-index: 3;
     text-decoration: underline;
+    font-size: 0.8rem;
+  }
+  
+  /* Design page - buttons and links on the right */
+  .design-page .card-link1, .design-page .card-link2 {
+    left: auto;
+    right: 2rem;
   }
   .card-link1{
     color: #914C10;
@@ -117,17 +125,23 @@
     background: #1C213A;
     color: white;
     border: none;
-    padding: 0.65rem 1.5rem;
+    padding: 0.55rem 1.25rem;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     margin-top: auto;      
     /* align-self: flex-start;  */
     position: absolute;
     bottom: 25px;     
-    right: 2rem;
+    left: 1.5rem;
     white-space: nowrap;
     z-index: 3;
+  }
+  
+  /* Design page - buttons on the right */
+  .design-page .submit-button1, .design-page .submit-button2 {
+    left: auto;
+    right: 2rem;
   }
   .submit-button1{
     font-family: funnel display;
@@ -145,17 +159,17 @@
     /* background: #FFCB51; */
     color: #13181C;
     border: none;
-    padding: 0.8rem 2rem;
+    padding: 0.55rem 1.25rem;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.75rem;
     margin-top: auto;      
     /* align-self: flex-start;  */
     position: absolute;
     bottom: 25px;     
-    left: 30%;
-    transform: translateX(-50%);
-    
+    left: 1.5rem;
+    white-space: nowrap;
+    z-index: 3;
   }
   .submit-button3{
     font-family: funnel display;
@@ -178,24 +192,29 @@
     position: absolute;
     bottom: 0;
     left: 0;        
-    width: 160px;
+    width: 140px;
     pointer-events: none; 
     border-radius: 20px;
     z-index: 1;
   }
   
   .gold-card .card-art {
-    width: 150px;
+    width: 120px;
   }
   
   .card-art2 {
     position: absolute;
     bottom: 0;
     right: 0;        
-    width: 200px;
+    width: 140px;
     pointer-events: none; 
     border-radius: 20px;
     z-index: 1;
+  }
+  
+  /* Development page - match design page image sizes */
+  .development:not(.design-page) .gold-card .card-art2 {
+    width: 120px;
   }
 
   
