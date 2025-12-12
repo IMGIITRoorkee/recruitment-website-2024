@@ -88,7 +88,7 @@
   .card-link1, .card-link2 {
     font-family: 'funnel display';
     position: absolute;
-    bottom: 100px;        /* Above button, stacked vertically */
+    bottom: 90px;        /* Above button, stacked vertically */
     left: 1.5rem;
     white-space: nowrap;
     z-index: 3;
