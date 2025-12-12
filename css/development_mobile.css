@@ -1,3 +1,4 @@
+/* Small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
     .first-year-wrapper, .second-year-wrapper {
         text-align: center;
@@ -44,5 +45,120 @@
     }
     .process-choices-description .process-description-heading {
         margin-bottom: 0.75em;
+    }
+
+    /* Cards responsive styles for mobile */
+    .cards-section {
+        padding: 2rem 0;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .design-card {
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+        padding: 1.5rem;
+        border-radius: 24px;
+    }
+
+    .card-title1, .card-title2 {
+        font-size: 1.3rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .card-text1, .card-text2 {
+        font-size: 0.85rem;
+        line-height: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .card-link1, .card-link2 {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        margin-bottom: 1rem;
+        display: block;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .submit-button1, .submit-button2, .submit-button3, .submit-button4 {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        width: 100%;
+        margin-top: 0.75rem;
+        display: block;
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .card-art, .card-art2 {
+        width: 100px;
+        opacity: 0.5;
+    }
+
+    .page-heading {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .page-heading-background {
+        padding-top: 1.5em;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .heading-text {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+/* Extra small devices (phones, 480px and down) */
+@media screen and (max-width: 480px) {
+    .cards-section {
+        padding: 1.5rem 0;
+    }
+
+    .cards-container {
+        gap: 1.25rem;
+        padding: 0 0.75rem;
+    }
+
+    .design-card {
+        padding: 1.25rem;
+        border-radius: 20px;
+    }
+
+    .card-title1, .card-title2 {
+        font-size: 1.2rem;
+    }
+
+    .card-text1, .card-text2 {
+        font-size: 0.8rem;
+        line-height: 1.25rem;
+    }
+
+    .card-art, .card-art2 {
+        width: 90px;
+    }
+
+    .page-heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .heading-text {
+        font-size: 24px;
+        line-height: 32px;
     }
 }

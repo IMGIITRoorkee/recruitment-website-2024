@@ -27,9 +27,9 @@
         width: 1em;
     }
     .page-heading-background {
-        background: url('/assets/aboutusbanner.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        /* background: url('/assets/aboutusbanner.png'); */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
     }
 }

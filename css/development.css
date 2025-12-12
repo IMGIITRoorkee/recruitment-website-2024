@@ -23,16 +23,18 @@
   }
   
   .design-card {
-    width: 500px;
-    min-height: 590px;
+    width: 450px;
+    max-width: 100%;
+    min-height: 550px;
     border-radius: 40px;
-    padding: 2.5rem;
+    padding: 2rem;
     position: relative;
     color: #1C213A;
     font-family: 'Space Grotesk', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;  /* pushes button to bottom */
+    box-sizing: border-box;
   }
   
   .gold-card {
@@ -47,7 +49,9 @@
   
   .card-title1, .card-title2{
     font-family: 'adonais';
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    position: relative;
+    z-index: 2;
     /* margin-bottom: 1.5rem; */
   }
   .card-title1{
@@ -60,9 +64,11 @@
   
   .card-text1, .card-text2 {
     font-family:funnel display; 
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin-bottom: 3rem;
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+    z-index: 2;
   }
   .card-text1{
     color: #914C10
@@ -105,10 +111,10 @@
     background: #1C213A;
     color: white;
     border: none;
-    padding: 0.8rem 2rem;
+    padding: 0.75rem 1.75rem;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.95rem;
     margin-top: auto;      
     /* align-self: flex-start;  */
     position: absolute;
@@ -116,6 +122,7 @@
     left: 73%;
     transform: translateX(-50%);
     white-space: nowrap;
+    z-index: 3;
   }
   .submit-button1{
     font-family: funnel display;
@@ -166,27 +173,80 @@
     position: absolute;
     bottom: 0;
     left: 0;        
-    width: 200px;
+    width: 180px;
+    max-width: 40%;
     pointer-events: none; 
     border-radius: 20px;
+    z-index: 1;
   }
   .card-art2 {
     position: absolute;
     bottom: 0;
     right: 0;        
-    width: 200px;
+    width: 180px;
+    max-width: 40%;
     pointer-events: none; 
     border-radius: 20px;
+    z-index: 1;
   }
 
   
   
   
-  /* Responsive */
-  @media screen and (max-width: 1100px) {
+  /* Responsive - Large tablets and small desktops */
+  @media screen and (max-width: 1200px) {
+    .cards-container {
+      gap: 2rem;
+    }
+    
+    .design-card {
+      width: 100%;
+      max-width: 420px;
+    }
+  }
+
+  /* Medium tablets */
+  @media screen and (max-width: 1024px) {
     .cards-container {
       flex-direction: column;
       align-items: center;
+      gap: 2rem;
+    }
+    
+    .design-card {
+      width: 100%;
+      max-width: 450px;
+    }
+
+    .card-art, .card-art2 {
+      width: 160px;
+    }
+  }
+
+  /* Small tablets */
+  @media screen and (max-width: 768px) {
+    .cards-section {
+      padding: 3rem 0;
+    }
+
+    .design-card {
+      width: 100%;
+      max-width: 500px;
+      padding: 1.75rem;
+      min-height: auto;
+    }
+
+    .card-title1, .card-title2 {
+      font-size: 1.5rem;
+    }
+
+    .card-text1, .card-text2 {
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+    }
+
+    .card-art, .card-art2 {
+      width: 140px;
     }
   }
   
