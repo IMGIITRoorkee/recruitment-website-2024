@@ -71,41 +71,58 @@
         font-size: 1.3rem;
         margin-bottom: 0.75rem;
         text-align: left;
+        white-space: normal;
     }
 
     .card-text1, .card-text2 {
         font-size: 0.85rem;
         line-height: 1.3rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
         text-align: left;
+        padding-right: 0.5rem;
     }
 
     .card-link1, .card-link2 {
         position: relative;
         bottom: auto;
         left: auto;
+        right: auto;
         transform: none;
-        margin-bottom: 1rem;
+        margin-bottom: 0.75rem;
         display: block;
-        text-align: center;
-        font-size: 0.9rem;
+        text-align: left;
+        font-size: 0.85rem;
+    }
+
+    /* Design page - mobile: keep links on right */
+    .design-page .card-link1, .design-page .card-link2 {
+        text-align: right;
     }
 
     .submit-button1, .submit-button2, .submit-button3, .submit-button4 {
         position: relative;
         bottom: auto;
         left: auto;
+        right: auto;
         transform: none;
-        width: 100%;
-        margin-top: 0.75rem;
-        display: block;
-        padding: 0.7rem 1.5rem;
-        font-size: 0.9rem;
+        width: auto;
+        margin-top: 0;
+        display: inline-block;
+        padding: 0.6rem 1.4rem;
+        font-size: 0.8rem;
+    }
+
+    /* Design page - mobile: keep buttons on right */
+    .design-page .submit-button1, .design-page .submit-button2 {
+        float: right;
     }
 
     .card-art, .card-art2 {
-        width: 100px;
-        opacity: 0.5;
+        display: none;
+    }
+
+    .gold-card .card-art {
+        display: none;
     }
 
     .page-heading {
@@ -144,21 +161,45 @@
     .card-title1, .card-title2 {
         font-size: 1.2rem;
         text-align: left;
+        white-space: normal;
+        margin-bottom: 0.5rem;
     }
 
     .card-text1, .card-text2 {
         font-size: 0.8rem;
         line-height: 1.25rem;
         text-align: left;
+        margin-bottom: 1.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .card-link1, .card-link2 {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .submit-button1, .submit-button2, .submit-button3, .submit-button4 {
+        padding: 0.55rem 1.2rem;
+        font-size: 0.75rem;
     }
 
     .card-art, .card-art2 {
-        width: 90px;
+        display: none;
+    }
+
+    .gold-card .card-art {
+        display: none;
     }
 
     .page-heading {
         font-size: 24px;
         line-height: 32px;
+    }
+
+    .page-heading-background {
+        padding-top: 1.25em;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
     }
 
     .heading-text {
