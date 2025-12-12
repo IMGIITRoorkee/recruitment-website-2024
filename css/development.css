@@ -36,12 +36,12 @@
   }
   
   .gold-card {
-    background: rgba(242, 193, 78, 1);
+    background: #E0B96F;
 
   }
   
   .rust-card {
-    background: rgba(191, 104, 27, 1);
+    background: #B87333;
     color: #1C213A;
   }
   
@@ -51,10 +51,10 @@
     /* margin-bottom: 1.5rem; */
   }
   .card-title1{
-    color: #BF681B
+    color: #4A2C00
   }
   .card-title2{
-    color: #FFDC89;
+    color: #C9A227;
 
   }
   
@@ -65,10 +65,10 @@
     margin-bottom: 3rem;
   }
   .card-text1{
-    color: #914C10
+    color: #4A2C00
   }
   .card-text2{
-    color: #FFDC89;
+    color: #C9A227;
 
   }
   
@@ -82,11 +82,11 @@
     z-index: 3;
   }
   .card-link1{
-    color: #914C10;
+    color: #4A2C00;
     
   }
   .card-link2, .card-link3{
-    color: #FFDC89;
+    color: #C9A227;
   }
   .card-link3{
     font-family: 'funnel display';
@@ -119,12 +119,12 @@
   }
   .submit-button1{
     font-family: funnel display;
-    background: #BF681B;
+    background: #4A2C00;
     color: #FFFFFF;
   }
   .submit-button2{
     font-family: funnel display;
-    background:#FFCB51;
+    background: #C9A227;
     
     color: #13181C;
   }

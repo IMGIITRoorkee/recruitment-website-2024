@@ -291,7 +291,7 @@ footer {
   /* background-position: center; */
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .page-heading {
