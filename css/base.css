@@ -45,6 +45,7 @@ nav {
 }
 
 .site-container-about {
+  z-index: 5;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -202,6 +203,18 @@ footer {
   width: 100%;
 }
 
+.footer-harp {
+  transform: scaleX(-1);
+  scale: 0.14;
+  position: absolute; 
+  right: -14.6em;
+  bottom: -36.3em;
+  /* width: clamp(110px, 16vw, 210px); */
+  height: auto;
+  z-index: -1;
+  pointer-events: none;
+}
+
 .footer-decoration {
   width: 100vw;
   max-width: 100%;
@@ -229,16 +242,14 @@ footer {
 }
 
 .site-footer-wrapper {
-  height: 100%;
-  width:100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1.5em;
-  font-family : Inter;
-  position:absolute;
-  z-index:3;
+  font-family: Inter;
+  padding: 1.5em 0 2.5em;
 }
 
 .site-footer-wrapper .navlink {
@@ -246,6 +257,7 @@ footer {
 }
 
 .sociallinks {
+  z-index: 5;
   display: grid;
   grid-column-gap: 0.5em;
   grid-auto-flow: column;
@@ -482,6 +494,7 @@ footer {
 }
 
 .made-with-heart{
+  z-index: 5;
 	font-family: 'Funnel Display';
 	font-size: 0.7em;
   color : #C9A227;
@@ -550,4 +563,11 @@ footer {
 .audio-button img {
   width: 30px;
   height: 30px;
+}
+
+.home-footer-harp {
+  /* custom styles only for this harp */
+  /* add overrides here */
+  position: absolute;
+  bottom: 1.9em;
 }

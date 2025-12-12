@@ -21,6 +21,7 @@
 }
 
 .about-us-description {
+    z-index: 5;
     font-family: 'Funnel Display';
     font-weight: 400;
     font-style: normal;
@@ -140,6 +141,7 @@
     margin-bottom: 2.25em;
 }
 .website-link .site-cta-button{
+    z-index: 5;
     scale: 1.4;
     font-family: 'Funnel Display';
     font-weight: bold;
