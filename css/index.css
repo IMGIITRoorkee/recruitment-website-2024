@@ -168,11 +168,11 @@
 }
 
 .update-item:nth-child(odd) {
-  background: #1E2428;
+  background: #262E51;
 }
 
 .update-item:nth-child(even) {
-  background: #2C3439;
+  background: #363F6D;
 }
 
 .update-time {
@@ -265,4 +265,24 @@
   right:0;
   height:20rem;
     z-index: 1000;
+}
+
+.home .footer-decoration {
+  width: 100vw;
+  overflow: hidden;
+  background-color: #1C213A;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  height: 50px !important;
+}
+
+.home .footer-decoration-image {
+  width: 100%;
+  height: 50px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  object-position: center;
 }
