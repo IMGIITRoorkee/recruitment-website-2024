@@ -5,7 +5,7 @@
     font-size: 18px;
     line-height: 25px;
    
-    padding-top: 0.3em;
+    padding: 0.3em 0 2em 0;
 }
 
 .about-us-section-wrapper {
@@ -161,8 +161,24 @@
 
 }
 
+@media screen and (max-width: 1170px) {
+  .about-us-role-n-culture {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .about-us-role-n-culture .about-us-section-wrapper {
+    width: min(65%, calc(100% - 2em));
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 600px) {
-    .questions-set {
+    .about-us-role-n-culture .about-us-section-wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+    /* .questions-set {
         margin: 0 auto;
         margin-top: 1em;
     }
@@ -191,11 +207,11 @@
 
     .question-description-special {
         font-size: .8em;
-    }
+    } */
 }
 
 @media screen and (max-width: 450px) {
-    .question-items {
+    /* .question-items {
         font-size: 1em;
         display: block;
         margin: 0 auto;
@@ -220,7 +236,7 @@
     .question-description-special {
         margin-top: 1em;
         font-size: .6em;
-    }
+    } */
     .about-us-description{
         font-size: 0.7em;
     }

@@ -280,7 +280,7 @@ footer {
 /* Pages related CSS */
 
 .page-heading-background {
-  padding-top: 2em;
+  padding: 2em 1em 1em 1em;
   max-width: 1200px;
   margin: 0 auto;
   /* height: 7.5em; */
