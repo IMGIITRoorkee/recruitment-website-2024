@@ -67,8 +67,8 @@
   
   .card-text1, .card-text2 {
     font-family:funnel display; 
-    font-size: 0.95rem;
-    line-height: 1.4rem;
+    font-size: 0.85rem;
+    line-height: 1.3rem;
     margin-top: 0;
     margin-bottom: 1rem;
     padding-bottom: 1.5rem;
@@ -76,6 +76,10 @@
     position: relative;
     z-index: 2;
     text-align: left;
+  }
+  
+  .card-text1 strong, .card-text2 strong {
+    white-space: nowrap;
   }
   .card-text1{
     color: #914C10
@@ -89,7 +93,7 @@
     font-family: 'funnel display';
     position: absolute;
     bottom: 90px;        /* Above button, stacked vertically */
-    left: 1.5rem;
+    left: 2.5rem;
     white-space: nowrap;
     z-index: 3;
     text-decoration: underline;
@@ -133,7 +137,7 @@
     /* align-self: flex-start;  */
     position: absolute;
     bottom: 25px;     
-    left: 1.5rem;
+    left: 2.5rem;
     white-space: nowrap;
     z-index: 3;
   }
@@ -167,7 +171,7 @@
     /* align-self: flex-start;  */
     position: absolute;
     bottom: 25px;     
-    left: 1.5rem;
+    left: 2.5rem;
     white-space: nowrap;
     z-index: 3;
   }
