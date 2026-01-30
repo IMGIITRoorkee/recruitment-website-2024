@@ -26,6 +26,9 @@
         font-family: Inter;
         color: ffffff;
     }
+    .discord-join-button {
+        margin-top: -1em;
+    }
     .sociallink img {
         width: 0.75em;
     }

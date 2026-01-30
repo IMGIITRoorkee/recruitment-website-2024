@@ -19,7 +19,7 @@
     margin-top: 54px;
     transform: translateX(250px);
     transition: transform 250ms ease-in-out;
-    background: #13181c;
+    background: #1C213A;
     z-index: 4;
 }
 .sidebarMenuInner{
